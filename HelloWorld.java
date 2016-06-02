@@ -5,7 +5,7 @@ public class HelloWorld {
         System.out.println("Hello, World");
 
 		//core changes
-		Thread t = new Thread();
+		Thread t = new Thread(new Runnable());
 
 		//atm changes
 		String str = new Stirng ("atm");
