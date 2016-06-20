@@ -4,7 +4,7 @@ public class HelloWorld {
         // Prints "Hello, World" to the terminal window.
         System.out.println("Hello, World");
 		//core changes
-		String str = new Stirng ("core 3.0");
+		String str = new Stirng ("atm 2.1");
     }
 
 }
