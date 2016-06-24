@@ -5,5 +5,4 @@ public class Test {
 		//master file
         System.out.println("Hello, Test");
     }
-
 }
