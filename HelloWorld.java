@@ -7,6 +7,7 @@ public class HelloWorld {
 		//atm changes
 		private static SessionFactory defaultSessionFactory;
 		private static Configuration defaultHibernateConfiguration;
+		File hbConfFile = new File(hbConfig);	    		
 
 		//core changes
 		DOMConfigurator.configure( pRoot + "/abc-bo/test/data/log4j.xml");
