@@ -5,5 +5,6 @@ public class HelloWorld {
         System.out.println("Hello, World");
 		//core changes
 		DOMConfigurator.configure( pRoot + "/abc-bo/test/data/log4j.xml");
+		String  hbConfig = pRoot + "/abc-bo/test/data/hibernate.cfg.xml";    // configure HB
     }
 }
