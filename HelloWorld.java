@@ -4,7 +4,6 @@ public class HelloWorld {
         // Prints "Hello, World" to the terminal window.
         System.out.println("Hello, World");
 		//core changes
-		private static Log log = LogFactory.getLog(HelloWorld.class);
-        String root = System.getProperty("user.dir");		
+		DOMConfigurator.configure( pRoot + "/abc-bo/test/data/log4j.xml");
     }
 }
